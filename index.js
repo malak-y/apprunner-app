@@ -352,7 +352,7 @@ app.get("/", (req, res) => {
   res.send(layout("Home — AppRunner", `
     <main>
       <p class="eyebrow">Production · Scalable · Serverless</p>
-      <h1>Hello from<br><span class="highlight">AWS App Runner</span></h1>
+      <h1>Hello from<br><span class="highlight">AWS App Runner </span></h1>
       <p class="subtitle">
         Your application is live and running on fully managed infrastructure.
         Auto-scales from zero — no servers to manage, no clusters to configure.
